@@ -8,7 +8,22 @@ Rarely used often forgot.
 
 > git tag -a v1.4 -m "my version 1.4"
 
+Push the tag to the repository
+
+> git push origin master --tags
+
+## Remove a Tag
+
+> git tag --delete tagname
+> git push origin master --tags
+
+or
+
+> git push --delete origin tagname
+
 ## Tagging After you have pushed
+
+If you forgot to tag a changeset and people are all :-$ you can find that changeset and push a tag to the changeset.
 
 > git tag -a v1.2 9fceb02
 
