@@ -1,6 +1,6 @@
 # Git Commands
 
-Ones rarely used often forgot.
+Rarely used often forgot.
 
 ¯\_(ツ)_/¯
 
