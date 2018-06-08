@@ -26,6 +26,10 @@ git for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags
 
 ```
 
+From twitterverse - https://twitter.com/_rsc/status/1004020768840220672
+
+> git for-each-ref --format='%(if)%(committerdate)%(then)%(committerdate)%(else)%(*committerdate)%(end) %(refname:lstrip=2)' refs/tags/*
+
 ## Clone to a folder from a tag
 
 Quick Clone to Folder of your own name and then cd into the foler.
