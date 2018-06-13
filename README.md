@@ -56,7 +56,7 @@ Quick Clone to Folder of your own name and then cd into the foler.
 
 ```git
 
-  git clone https://github/craignicholson/myapp.git MDMServicesDatabase ; cd .\MDMServicesDatabase\; git checkout tags/3.2.9 ; cd ..
+  git clone https://github/craignicholson/myapp.git MyApp ; cd .\MyApp\; git checkout tags/3.2.9 ; cd ..
 
 ```
 
