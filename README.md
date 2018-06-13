@@ -31,8 +31,10 @@ If you forgot to tag a changeset and people are all :-$ you can find that change
 
 > git log --tags --simplify-by-decoration --pretty="format:%ai %d"
 
+```bash
 $ 2018-04-23 16:13:18 -0500  (tag: 6.3.9)
 $ 2018-04-20 22:24:24 -0500  (tag: 6.3.8)
+```
 
 ```git
 
