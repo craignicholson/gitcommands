@@ -15,9 +15,12 @@ Push the tag to the repository
 ## Remove a Tag
 
 > git tag --delete tagname
+
+And
+
 > git push origin master --tags
 
-or
+Or
 
 > git push --delete origin tagname
 
