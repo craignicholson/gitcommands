@@ -39,6 +39,15 @@ $ 2018-04-23 16:13:18 -0500  (tag: 6.3.9)
 $ 2018-04-20 22:24:24 -0500  (tag: 6.3.8)
 ```
 
+> git log --tags --simplify-by-decoration --pretty="format:%d %cD"
+
+```bash
+ (tag: 4.0) Thu, 7 Jan 2016 23:34:57 +0600
+ (tag: 3.0) Thu, 8 Oct 2015 16:49:08 +0400
+```
+
+Additional formats for testing
+
 ```git
 
 git for-each-ref --format '%(tag)'
