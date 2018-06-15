@@ -72,6 +72,25 @@ Quick Clone to Folder of your own name and then cd into the foler.
 
 ```
 
+## Windows and CRFL or ^M and other crud
+
+```bash
+$ git config --global core.autocrlf true
+
+# And then convert your files:
+
+# Remove everything from the index
+$ git rm --cached -r .
+
+# Re-add all the deleted files to the index
+# You should get lots of messages like: "warning: CRLF will be replaced by LF in <file>."
+git diff --cached --name-only -z | xargs -0 git add
+
+# Commit
+git commit -m "Fix CRLF"
+
+```
+
 ## Changesets
 
 Add info about where the get the changset from Kiln.
